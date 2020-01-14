@@ -2,6 +2,62 @@ body{
     font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background-color: #777;
-    width: '960px';
-    font-size: '18px';
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    margin:0 auto;
+}
+#header,
+#nav,
+#section,
+#aside,
+#footer{
+    background-color: #ebebeb;
+}
+#article{
+    color: #ebebeb;
+    background-color: #777;
+}
+#h1,
+#p{
+    color: #777;
+    background-color: #ebebeb;
+}
+#header,
+#nav{
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+#article{
+    margin: 25px 10px 20px 25px;
+    width: 400px;
+    height: 50px;
+    padding-bottom: 30%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#p{
+    width: 350 px;
+    height: 50 px;
+}
+#footer{
+    margin: 10px;
+    padding: 20px
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+#section{
+    float: left;
+    margin: 10px;
+    width: 495px;
+
+}
+#aside{
+    float: right;
+    margin: 10px;
+    width: 425px;
 }
